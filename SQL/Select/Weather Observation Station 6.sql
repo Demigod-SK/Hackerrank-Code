@@ -19,4 +19,4 @@ Write a query to print the list of CITY that start with vowels in lexicographica
 
 SELECT CITY
 FROM STATION
-WHERE CITY Like '[AEIOU]%';
+WHERE CITY Like 'A%' or CITY Like 'E%' or CITY Like 'I%' or CITY Like 'O%' or CITY Like 'U%';
